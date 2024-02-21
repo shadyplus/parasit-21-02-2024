@@ -1,0 +1,10 @@
+document.addEventListener("DOMContentLoaded", function(event) {
+
+
+    document.querySelectorAll('.show-spoil').forEach(function(item){
+        item.addEventListener('click', function(){
+            this.querySelector('.content').style.display = 'block';
+        })
+    })
+
+});
